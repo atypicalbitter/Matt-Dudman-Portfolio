@@ -1,0 +1,148 @@
+:root {
+    --darkgray: darkslategray;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 1.5;
+    }
+
+header {
+        background-color: var(--darkgray); 
+        margin-top: 0;
+        padding: 2%
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: flex-end;
+        padding: 1%;
+        background-color: blanchedalmond;
+    }
+
+h1 {
+        font-weight: bold;
+        color: whitesmoke;
+        font-size: 80px;
+        margin: -1%;
+    }
+
+                        /* LIST */
+ul {
+    font-size: 1.5em;
+    list-style-type: none;
+    background-color: var(--darkgray);
+    margin: 0;
+    text-align: right;
+}
+li {
+        display: inline;
+        font-size: 1.5em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 40px;
+}
+ul li a:hover
+{
+color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-section {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ gap:3vw;
+}
+
+.about-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about p{
+    padding:3%;
+    width:70%;
+}
+.work-flex{
+    width:70%
+}
+
+.first-img {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
+.other-row{
+    display:flex;
+    justify-content: center;
+}
+.content-1{
+    position:relative;
+    filter: grayscale(0);
+    transition: all 2s ease-in-out;
+
+}
+.content-2{
+    position:relative;
+}
+.content-3{
+    position:relative;
+}
+.content-4{
+    position:relative;
+}
+.content-5{
+    position:relative;
+}
+#caption1 {
+    background-color: darkslategray;
+    font-size:3rem;
+    padding:2%;
+    position: absolute;
+    bottom: 35px;
+    color: blanchedalmond;
+    transition: all 500ms;
+
+
+}
+
+#caption2, #caption3, #caption4, #caption5 {
+    background-color: darkslategray;
+    font-size:1.1rem;
+    padding:2%;
+    position: absolute;
+    bottom:35px;
+    color: blanchedalmond;
+    
+}
+
+.work-flex img:hover {
+    filter: grayscale(1);
+    transition: all 500ms;
+}
+
+.other-row img:hover {
+    filter: grayscale(1);
+    transition: all 500ms;
+}
+
+
+
+.contact{
+    padding: 10%;
+}
+
+/* {
+    box-sizing: border-box;
+}*/
