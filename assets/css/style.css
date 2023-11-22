@@ -10,6 +10,7 @@ body {
         padding: 0;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         line-height: 1.5;
+        background-color: whitesmoke;
     }
 
 header {
@@ -21,8 +22,18 @@ header {
 .hero-banner {
     display: flex;
     justify-content: flex-end;
-        padding: 1%;
+    align-items: center;
+        padding:-30px;
         background-color: blanchedalmond;
+    }
+
+    .profile img{
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 200px;
+        max-width: 20%;
+        max-height: 20%;
+        padding: -20px;
     }
 
 h1 {
@@ -32,6 +43,11 @@ h1 {
         margin: -1%;
     }
 
+h2 {
+font-size: 1.5em;
+
+}
+
                         /* LIST */
 ul {
     font-size: 1.5em;
@@ -40,15 +56,12 @@ ul {
     margin: 0;
     text-align: right;
 }
+
 li {
         display: inline;
         font-size: 1.5em;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 40px;
-}
-ul li a:hover
-{
-color: whitesmoke;
 }
 
 a {
@@ -56,11 +69,18 @@ a {
     color: black;
 }
 
+ul li a:hover
+{
+color: whitesmoke;
+}
+
+
+
 .page-section {
- display:flex;
- justify-content: center;
- align-items: center;
- gap:3vw;
+display:flex;
+justify-content: center;
+align-items: center;
+gap:3vw;
 }
 
 .about-title{
@@ -71,18 +91,22 @@ a {
 
 #about p{
     padding:3%;
-    width:70%;
+    width:83%;
 }
 .work-flex{
-    width:70%
+    width:auto
 }
 
 .first-img {
     display: flex;
     justify-content: center;
     padding: 5%;
-
 }
+
+.content-1 img, .content-2 img, .content-3 img, .content-4 img, .content-5 img{
+    border-radius: 8px;
+}
+
 .other-row{
     display:flex;
     justify-content: center;
@@ -93,18 +117,11 @@ a {
     transition: all 2s ease-in-out;
 
 }
-.content-2{
+.content-2, .content-3, .content-4, .content-5{
     position:relative;
+
 }
-.content-3{
-    position:relative;
-}
-.content-4{
-    position:relative;
-}
-.content-5{
-    position:relative;
-}
+
 #caption1 {
     background-color: darkslategray;
     font-size:3rem;
@@ -113,8 +130,6 @@ a {
     bottom: 35px;
     color: blanchedalmond;
     transition: all 500ms;
-
-
 }
 
 #caption2, #caption3, #caption4, #caption5 {
@@ -124,7 +139,6 @@ a {
     position: absolute;
     bottom:35px;
     color: blanchedalmond;
-    
 }
 
 .work-flex img:hover {
@@ -135,6 +149,12 @@ a {
 .other-row img:hover {
     filter: grayscale(1);
     transition: all 500ms;
+}
+
+#contact-info{
+display: inline-block;
+justify-content: space-evenly;
+
 }
 
 
