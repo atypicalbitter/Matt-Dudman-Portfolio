@@ -1,5 +1,7 @@
 :root {
     --darkgray: darkslategray;
+    --ws: whitesmoke;
+
 }
 html {
     scroll-behavior: smooth;
@@ -10,7 +12,7 @@ body {
         padding: 0;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         line-height: 1.5;
-        background-color: whitesmoke;
+        background-color: var(--ws);
     }
 
 header {
@@ -38,7 +40,7 @@ header {
 
 h1 {
         font-weight: bold;
-        color: whitesmoke;
+        color: var(--ws);
         font-size: 80px;
         margin: -1%;
     }
@@ -71,7 +73,7 @@ a {
 
 ul li a:hover
 {
-color: whitesmoke;
+color: var(--ws)
 }
 
 
@@ -100,7 +102,7 @@ gap:3vw;
 .first-img {
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 1%;
 }
 
 .content-1 img, .content-2 img, .content-3 img, .content-4 img, .content-5 img{
@@ -157,12 +159,38 @@ justify-content: space-evenly;
 
 }
 
-
-
 .contact{
-    padding: 10%;
+    padding:0;
+    margin: -15px;
 }
 
-/* {
-    box-sizing: border-box;
-}*/
+.horizontal-menu {
+    background-color: var(--ws);
+
+}
+
+.horizontal-menu ul {
+    padding: -20px;
+    margin: -15px;
+    list-style-type: none;
+}
+
+.horizontal-menu li {
+    float: left;
+}
+
+.horizontal-menu a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+}
+
+.horizontal-menu a:hover {
+    background-color: var(--darkgray);
+    color: blanchedalmond;
+    padding: 5%;
+    border-radius: 3px;
+}
+
