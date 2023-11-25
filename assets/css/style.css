@@ -121,6 +121,8 @@ align-items: center;
  #work {
     margin: 0;
     padding: 0%;
+    display: flex;
+
 
  }
 
@@ -136,6 +138,9 @@ align-items: center;
     padding: 1%;
     width: auto;
     margin: 16px;
+    border-style: solid;
+    border-left-color: black;
+    border-width: 0 0 0 5px;
   
 
 }
@@ -145,6 +150,9 @@ align-items: center;
     justify-content: center;
     width: auto;
     flex-direction: row;
+    border-style: solid;
+    border-left-color: black;
+    border-width: 0 0 0 5px;
 
 }
 
