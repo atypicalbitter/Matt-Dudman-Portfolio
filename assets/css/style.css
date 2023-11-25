@@ -18,57 +18,34 @@ body {
 header {
         background-color: var(--darkgray); 
         margin-top: 0;
-        padding: 2%
+        padding: 1%
 }
-
-.hero-banner {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-        padding:-30px;
-        background-color: blanchedalmond;
-    }
-
-    .profile img{
-        display: flex;
-        justify-content: flex-start;
-        border-radius: 200px;
-        max-width: 20%;
-        max-height: 20%;
-        padding: -20px;
-    }
 
 h1 {
-        font-weight: bold;
-        color: var(--ws);
-        font-size: 80px;
-        margin: -1%;
-    }
-
-h2 {
-font-size: 1.5em;
-
+    font-weight: bold;
+    color: var(--ws);
+    font-size: 70px;
+    margin: -1%;
 }
-
-                        /* LIST */
-ul {
-    font-size: 1.5em;
-    list-style-type: none;
-    background-color: var(--darkgray);
-    margin: 0;
-    text-align: right;
+                    /* LIST */
+.navbar {
+font-size: 1.5em;
+list-style-type: none;
+background-color: var(--darkgray);
+margin: 0;
+text-align: right;
 }
 
 li {
-        display: inline;
-        font-size: 1.5em;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        padding: 40px;
+    display: inline;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px; 
 }
 
 a {
-    text-decoration: none;
-    color: black;
+text-decoration: none;
+color: black;
 }
 
 ul li a:hover
@@ -76,52 +53,114 @@ ul li a:hover
 color: var(--ws)
 }
 
+                    /* HERO BANNER */
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:-30px;
+    background-color: blanchedalmond;
+    }
 
+    .profile {
+        max-width: 20%;
+        max-height: 20%;
+        float: left;
+    }
+
+.profile img {
+    border-radius: 50px;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 25px 20px 10px 20px;
+
+}
+
+.hero-title {
+    float: right;
+    font-size: 1.5em;
+    padding-right: 50px;
+}
 
 .page-section {
 display:flex;
 justify-content: center;
 align-items: center;
-gap:3vw;
+
+
 }
 
-.about-title{
+                    /* ABOUT ME */
+.about-title {
     display:flex;
     justify-content: center;
-    align-items: center;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 #about p{
-    padding:3%;
-    width:83%;
+    padding:1%;
+    width: auto;
+    border-style: solid;
+    border-left-color: black;
+    border-width: 0 0 0 5px;
 }
-.work-flex{
-    width:auto
-}
+                    /* WORK */
+
+.work-title {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+ }
+
+ #work {
+    margin: 0;
+    padding: 0%;
+
+ }
+
+    /*.work-flex{
+        width: auto;
+        position: relative;
+        margin: auto;
+    }*/
 
 .first-img {
     display: flex;
     justify-content: center;
     padding: 1%;
+    width: auto;
+    margin: 16px;
+  
+
+}
+
+.other-row {
+    display:flex;
+    justify-content: center;
+    width: auto;
+    flex-direction: row;
+
 }
 
 .content-1 img, .content-2 img, .content-3 img, .content-4 img, .content-5 img{
     border-radius: 8px;
 }
 
-.other-row{
-    display:flex;
-    justify-content: center;
-}
+
 .content-1{
     position:relative;
     filter: grayscale(0);
     transition: all 2s ease-in-out;
-
 }
 .content-2, .content-3, .content-4, .content-5{
     position:relative;
-
+    justify-content: center;
 }
 
 #caption1 {
@@ -131,7 +170,6 @@ gap:3vw;
     position: absolute;
     bottom: 35px;
     color: blanchedalmond;
-    transition: all 500ms;
 }
 
 #caption2, #caption3, #caption4, #caption5 {
@@ -153,10 +191,13 @@ gap:3vw;
     transition: all 500ms;
 }
 
-#contact-info{
-display: inline-block;
-justify-content: space-evenly;
+                    /* CONTACT*/
 
+
+.contact-title {
+    display:flex;
+    font-size: 2em;
+    text-align: left;
 }
 
 .contact{
@@ -166,7 +207,6 @@ justify-content: space-evenly;
 
 .horizontal-menu {
     background-color: var(--ws);
-
 }
 
 .horizontal-menu ul {
@@ -190,7 +230,43 @@ justify-content: space-evenly;
 .horizontal-menu a:hover {
     background-color: var(--darkgray);
     color: blanchedalmond;
-    padding: 5%;
+    padding: 7%;
     border-radius: 3px;
 }
 
+
+  /*   @media screen and (max-width: 1000px) {
+    body {
+        font-size: 14px; 
+    }
+    header {
+        padding: 5px; 
+    }
+
+    .about-title {
+        font-size: 1.8em;
+    }
+
+    #about p {
+        padding: 1.5%; 
+    }
+
+            #navbar, li {
+                float: none;
+                display: block;
+                text-align: left;
+                padding: 1px 1px 1px 1px;
+                text-decoration: none;}
+            }
+
+        @media screen and (max-width: 1000px) {
+            .content-1, .content-2, .content-3, .content-4, .content-5{
+                width: 10vw;
+            }
+            .other-row {
+                display: flex;
+                flex-direction: column;
+                width: 30vw
+           }
+
+        } */
