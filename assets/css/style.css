@@ -45,26 +45,35 @@
         {
         color: var(--ws)
         }
-                            /* HERO BANNER */
-        .hero-banner {
+
+        .profile {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding:-30px;
-            background-color: blanchedalmond;
-            }
-            .profile {
-                max-width: 20%;
-                max-height: 20%;
-                float: left;
-            }
+            padding-left: 20px;
+        }
+
         .profile img {
             border-radius: 50px;
             max-width: 50%;
             max-height: 50%;
-            padding: 25px 20px 10px 20px;
+            padding: 5px;
+
         }
+
+
+
+
+
+                            /* HERO BANNER */
+        .hero-banner {
+            display: flex;
+            justify-content: space-between;
+            background-color: blanchedalmond;
+            }
+
+
         .hero-title {
+            display: inline;
             float: right;
             font-size: 1.5em;
             padding-right: 50px;
@@ -81,11 +90,16 @@
             padding-left: 20px;
             padding-right: 20px;
             text-align: center;
-            border-right: 2px black solid;
+            border-right: 5px black solid;
         }
         .about-title h2 {
             width: 10rem;
         }
+        
+        #about p {
+            padding: 5px 80px 5px 80px;
+        }
+
                             /* WORK */
         .work-title {
             display: inline-flex;
@@ -94,7 +108,7 @@
             padding-left: 20px;
             padding-right: 20px;
             text-align: center;
-            border-right: 2px black solid;
+            border-right: 5px black solid;
          }
          .work-title h2 {
             width: 10rem;
@@ -115,7 +129,6 @@
             padding: 1%;
             width: auto;
             margin: 16px;
-            /* border-style: solid; */
             border-left-color: black;
             border-width: 0 0 0 5px;
         }
@@ -124,7 +137,6 @@
             justify-content: center;
             width: auto;
             flex-direction: row;
-            /* border-style: solid; */
             border-left-color: black;
             border-width: 0 0 0 5px;
         }
