@@ -9,12 +9,14 @@ Welcome to my Front-End Web Development Portfolio! This portfolio showcases my s
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [About](#about)
-- [Usage](#usage)
 - [License](#license)
+- [Deployed Link](#deployed-link)
+- [Author](#author)
+
 
 ## Introduction
 
-As a dedicated front-end web development student, I've created this portfolio to present my skills and projects to potential employers. The portfolio incorporates core skills such as flexbox, media queries, and CSS variables. The goal is to not only showcase my work but also to provide insights into the thought processes behind each project.
+As a front-end web development student, I've created this portfolio to present my skills and projects to potential employers and to showcase what I have already learnt on this bootcamp. The portfolio incorporates core skills such as flexbox and media queries. The goal is to not only showcase my work but also to provide insights into the thought processes behind each project.
 
 ## Installation 
 
@@ -24,22 +26,24 @@ N/A
 
 ### The sections in my portolio include
 
-* About Me: Learn more about me, my background, and skills.
+The portfolio is broken down into sections which can be seen in my wireframes shown below. The 3 sections are as listed. 
 
-* Work: Explore a collection of my projects that I have made so far and some social links with more projects soon to come!
+* About Me: Learn more about me, my background, and skills. 
+
+* Work: Explore a collection of my projects that I have made so far, along with ,my design portfolio and some social links with more projects soon to come!
 
 * Contact: Find out how to get in touch with me by Email, Linkedin or Github. 
 
-Clicking on any of these links will smoothly scroll the UI to the corresponding section, providing a seamless user experience.
+Clicking on any of these links will smoothly scroll the UI to the corresponding section, providing a seamless user experience. Also, within the navbar when you hover over any item the colour changes. 
 
 Recognising the importance of adaptability, this portfolio is designed to be responsive. Whether you're viewing it on a large desktop screen or a smaller mobile device, the layout adapts to your viewport. Media queries ensure a smooth and visually pleasing experience across various screens and devices.
 
-Below are the 2 wireframes that I designed before going starting the task. 
-## This is the Small Screen Wireframe (max width 1000px)
+### Below are the 2 wireframes that I designed before going starting the task. 
+## This is the Small Screen Wireframe (max width 1000px):
 
 ![Small Screen Wireframe](<assets/images/Phone Wireframe.png>)
 
-## This is the Laptop Screen Wireframe (min width 1001px)
+## This is the Laptop Screen Wireframe (min width 1001px):
 
 ![Laptop Screen Wireframe](<assets/images/Web Wireframe.png>)
 
@@ -54,9 +58,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Credits
-Lock on to him, R2. Master, General Grievous's ship is directly ahead Master, General Grievous's ship is directly ahead the one crawling with vulture droids. I see it. Oh, this is going to be easy. Oddball, do you copy? Copy, Red Leader. Mark my position.
 
 ## Deployed Link
 
