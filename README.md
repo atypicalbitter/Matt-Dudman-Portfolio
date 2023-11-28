@@ -39,11 +39,11 @@ Clicking on any of these links will smoothly scroll the UI to the corresponding 
 Recognising the importance of adaptability, this portfolio is designed to be responsive. Whether you're viewing it on a large desktop screen or a smaller mobile device, the layout adapts to your viewport. Media queries ensure a smooth and visually pleasing experience across various screens and devices.
 
 ### Below are the 2 wireframes that I designed before going starting the task. 
-## This is the Small Screen Wireframe (max width 1000px):
+## This is the Small Screen Wireframe:
 
 ![Small Screen Wireframe](<assets/images/Phone Wireframe.png>)
 
-## This is the Laptop Screen Wireframe (min width 1001px):
+## This is the Laptop Screen Wireframe:
 
 ![Laptop Screen Wireframe](<assets/images/Web Wireframe.png>)
 
@@ -76,7 +76,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Deployed Link
-
+ * [See Deployed Link here](https://atypicalbitter.github.io/Matt-Dudman-Portfolio/)
 
 ## Author
  * [Matt Dudman](https://github.com/atypicalbitter)
