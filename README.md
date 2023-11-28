@@ -2,18 +2,48 @@
 
 ## Description
 
-Lock on to him, R2. Master, General Grievous's ship is directly ahead Master, General Grievous's ship is directly ahead the one crawling with vulture droids. I see it. Oh, this is going to be easy. Oddball, do you copy? Copy, Red Leader. Mark my position.
+Welcome to my Front-End Web Development Portfolio! This portfolio showcases my skills, talents, and various projects, providing a glimpse into my capabilities as a web developer.
 
+## Table of Contents
 
-### Heading
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [About](#about)
+- [Usage](#usage)
+- [License](#license)
 
-The Tags I used were: 
+## Introduction
 
-* Bullet Points 
+As a dedicated front-end web development student, I've created this portfolio to present my skills and projects to potential employers. The portfolio incorporates core skills such as flexbox, media queries, and CSS variables. The goal is to not only showcase my work but also to provide insights into the thought processes behind each project.
 
-Lock on to him, R2. Master, General Grievous's ship is directly ahead Master, General Grievous's ship is directly ahead the one crawling with vulture droids. I see it. Oh, this is going to be easy. Oddball, do you copy? Copy, Red Leader. Mark my position.
+## Installation 
 
-## Licence
+N/A
+
+## About
+
+### The sections in my portolio include
+
+* About Me: Learn more about me, my background, and skills.
+
+* Work: Explore a collection of my projects that I have made so far and some social links with more projects soon to come!
+
+* Contact: Find out how to get in touch with me by Email, Linkedin or Github. 
+
+Clicking on any of these links will smoothly scroll the UI to the corresponding section, providing a seamless user experience.
+
+Recognising the importance of adaptability, this portfolio is designed to be responsive. Whether you're viewing it on a large desktop screen or a smaller mobile device, the layout adapts to your viewport. Media queries ensure a smooth and visually pleasing experience across various screens and devices.
+
+Below are the 2 wireframes that I designed before going starting the task. 
+## This is the Small Screen Wireframe (max width 1000px)
+
+![Small Screen Wireframe](<assets/images/Phone Wireframe.png>)
+
+## This is the Laptop Screen Wireframe (min width 1001px)
+
+![Laptop Screen Wireframe](<assets/images/Web Wireframe.png>)
+
+## License
 
 MIT License
 
