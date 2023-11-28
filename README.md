@@ -47,6 +47,22 @@ Recognising the importance of adaptability, this portfolio is designed to be res
 
 ![Laptop Screen Wireframe](<assets/images/Web Wireframe.png>)
 
+### Here are some screen shots of the final webpage. 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.26.37.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.26.49.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.27.07.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.27.15.png>)
+
+
+### Here are some screen shots of the mobile screen at 406px. 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.30.20.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.30.41.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.30.50.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.30.58.png>) 
+![Alt text](<assets/images/Screenshot 2023-11-28 at 21.31.06.png>)
+
+
+
 ## License
 
 MIT License
