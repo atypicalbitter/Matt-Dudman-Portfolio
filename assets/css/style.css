@@ -35,7 +35,7 @@ h1 {
     margin-bottom: -2;
 }
 
-    .profile img {
+.profile img {
     height: auto;
     border-radius: 50px;
     max-width: 50%;
@@ -62,7 +62,7 @@ h1 {
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: var(--bck);
     width: 100%;
     display: block;
     padding: 25px 5px 0px 10px;
@@ -79,7 +79,6 @@ h1 {
     background-color: var(--bla);
     margin-top: -2%;
 }
-
 
 .hero-title h2 {
     font-size: 2em;
@@ -155,6 +154,14 @@ h1 {
     flex-direction: row;
     border-left-color: var(--bck);
     border-width: 0 0 0 5px;
+}
+.content-1 img{
+    width:1000px;
+    height:700px;
+}
+.content-2 img, .content-3 img, .content-4 img, .content-5 img{
+    width:400px;
+    height:300px
 }
 
 .content-1 img, .content-2 img, .content-3 img, .content-4 img, .content-5 img{
@@ -380,4 +387,36 @@ width: 10rem;
 
     
 }
+@media screen and (max-width:768px){
 
+}
+
+@media screen and (max-width:550px){
+    .about-title,  .work-title, .contact-title {
+        font-size: 1em;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+.first-img {
+      background-color: hotpink;
+      
+    }
+    .content-1 img{
+        width:500px;
+        height:350px;
+    }
+    
+    
+    .other-row {
+        flex-direction: column;
+        margin-left: 0;
+        
+       
+    }
+
+    .content-2 img, .content-3 img, .content-4 img, .content-5 img{
+        width:200px;
+        height:150px
+    }
+}
